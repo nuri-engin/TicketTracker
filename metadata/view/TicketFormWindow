@@ -1,0 +1,53 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "buttons": [
+            "[{",
+            "    text: 'Save',",
+            "    action: 'saveTicket'",
+            "}]"
+        ],
+        "closeAction": "hide",
+        "designer|userAlias": "ticketFormWindow",
+        "designer|userClassName": "TicketFormWindow",
+        "height": 370,
+        "title": "Add-Edit Ticket",
+        "width": 500
+    },
+    "configAlternates": {
+        "buttons": "array",
+        "closeAction": "string",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "title": "string",
+        "width": "auto"
+    },
+    "name": "MyWindow",
+    "designerId": "1ff1adcf-44ad-4d6c-aa60-33f1b89428a6",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "buttons",
+            "type": "string"
+        }
+    ],
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "ticketform",
+            "designerId": "f6543b4b-0af0-4ac3-8434-b3978c7ce330",
+            "masterInstanceId": "f6d0225a-c294-4570-a37b-ac302bb1e82f"
+        }
+    ]
+}

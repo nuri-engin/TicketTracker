@@ -1,0 +1,45 @@
+{
+    "type": "Ext.data.Store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "data": [
+            "[",
+            "                {",
+            "                    title: 'Maxx Royal',",
+            "                    status: 'Open',",
+            "                    description: 'Error on Accounting module',",
+            "                    importance: 3",
+            "                },",
+            "                {",
+            "                    title: 'Akra Barut',",
+            "                    status: 'Complete',",
+            "                    description: 'Error on GEM module',",
+            "                    importance: 5",
+            "                },",
+            "                {",
+            "                    title: 'Limak Hotels',",
+            "                    status: 'In Progress',",
+            "                    description: 'Error on Reservation module',",
+            "                    importance: 2",
+            "                }",
+            "]"
+        ],
+        "designer|userAlias": "ticketStore",
+        "designer|userClassName": "TicketStore",
+        "model": "Ticket",
+        "storeId": "TicketStore"
+    },
+    "configAlternates": {
+        "data": "array",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "model": "model",
+        "storeId": "string"
+    },
+    "name": "MyStore",
+    "designerId": "04763ab5-7459-4214-93b8-512fff47fd8b"
+}

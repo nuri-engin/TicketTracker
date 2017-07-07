@@ -1,0 +1,56 @@
+{
+    "type": "Ext.view.View",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "ticketDataView",
+        "designer|userClassName": "TicketDataView",
+        "emptyText": "No Records!",
+        "height": 250,
+        "itemSelector": "div.ticket-wrapper",
+        "store": "TicketStore",
+        "width": 400
+    },
+    "configAlternates": {
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "emptyText": "string",
+        "height": "auto",
+        "itemSelector": "string",
+        "store": "store",
+        "width": "auto"
+    },
+    "name": "MyView",
+    "designerId": "8e9d5f47-f138-4436-aba8-e555528427f4",
+    "cn": [
+        {
+            "type": "Ext.XTemplate",
+            "reference": {
+                "name": "itemTpl",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "itemTpl",
+                "implHandler": [
+                    "                            <tpl for\".\">",
+                    "                                <div class=\"ticket-wrapper\">",
+                    "                                    <span class=\"title\">{title} ({importance})</span>",
+                    "                                    <span class=\"description\">{description}</span>",
+                    "                                    <span class=\"status {[values.status.toLowerCase().replace(\" \", \"-\")]}\">{status}</span>",
+                    "                                </div>",
+                    "                            </tpl>"
+                ]
+            },
+            "configAlternates": {
+                "designer|displayName": "string",
+                "implHandler": "code"
+            },
+            "name": "itemTpl",
+            "designerId": "b15cf46c-627e-46ae-94b4-8ea713cb844b"
+        }
+    ]
+}

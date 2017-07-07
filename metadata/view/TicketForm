@@ -1,0 +1,128 @@
+{
+    "type": "Ext.form.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "bodyPadding": 10,
+        "designer|userAlias": "ticketForm",
+        "designer|userClassName": "TicketForm",
+        "height": 300,
+        "width": 500
+    },
+    "configAlternates": {
+        "bodyPadding": "auto",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "width": "auto"
+    },
+    "name": "MyForm",
+    "designerId": "f6d0225a-c294-4570-a37b-ac302bb1e82f",
+    "cn": [
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Title",
+                "layout|anchor": "100%",
+                "name": "title",
+                "width": 300
+            },
+            "configAlternates": {
+                "fieldLabel": "string",
+                "layout|anchor": "string",
+                "name": "string",
+                "width": "auto"
+            },
+            "name": "MyTextField",
+            "designerId": "87ce10c7-2114-416d-b76d-67a832d8f773"
+        },
+        {
+            "type": "Ext.form.field.TextArea",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Description",
+                "layout|anchor": "100%",
+                "name": "description",
+                "width": 300
+            },
+            "configAlternates": {
+                "fieldLabel": "string",
+                "layout|anchor": "string",
+                "name": "string",
+                "width": "auto"
+            },
+            "name": "MyTextArea",
+            "designerId": "37d37ee0-f772-4518-8dc6-05641c0192fd"
+        },
+        {
+            "type": "Ext.form.field.Number",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Importance",
+                "layout|anchor": "100%",
+                "maxValue": 5,
+                "minValue": 1,
+                "name": "importance",
+                "value": [
+                    "1"
+                ],
+                "width": 300
+            },
+            "configAlternates": {
+                "fieldLabel": "string",
+                "layout|anchor": "string",
+                "maxValue": "number",
+                "minValue": "number",
+                "name": "string",
+                "value": "object",
+                "width": "auto"
+            },
+            "name": "MyNumberField",
+            "designerId": "8c49c770-1a44-43fd-91ed-44c1e971943b"
+        },
+        {
+            "type": "Ext.form.field.ComboBox",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "Status",
+                "layout|anchor": "100%",
+                "name": "status",
+                "queryMode": "local",
+                "store": [
+                    "['Open', 'In Progress', 'Complete']"
+                ],
+                "width": 300
+            },
+            "configAlternates": {
+                "store": "array",
+                "fieldLabel": "string",
+                "layout|anchor": "string",
+                "name": "string",
+                "queryMode": "string",
+                "width": "auto"
+            },
+            "name": "MyComboBox1",
+            "designerId": "c53ca540-682f-47f9-91ae-45ff5cf42bd5"
+        }
+    ]
+}

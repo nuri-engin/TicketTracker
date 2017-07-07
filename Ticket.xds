@@ -1,0 +1,58 @@
+{
+    "name": "Ticket",
+    "settings": {
+        "cmd": {
+            "license": "",
+            "cmdVersion": "",
+            "frameworkVersion": ""
+        },
+        "urlPrefixTemplate": "http://localhost:80/architect/Ticket",
+        "urlPrefix": "http://localhost:80/architect/Ticket",
+        "exportPath": "/opt/lampp/htdocs/architect",
+        "buildShouldOverwriteIndex": false,
+        "generateArchitectVersion": true,
+        "spacesToIndent": 4,
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "installStatus": "Not Installed",
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "sdkPath": ""
+    },
+    "xdsVersion": "4.2.1",
+    "xdsBuild": 224,
+    "schemaVersion": 1,
+    "upgradeVersion": 310000000001,
+    "framework": "ext65",
+    "viewOrderMap": {
+        "view": [
+            "6c475517-6e4b-4363-8a7a-e5c26f5e0a41",
+            "8e9d5f47-f138-4436-aba8-e555528427f4",
+            "f6d0225a-c294-4570-a37b-ac302bb1e82f",
+            "1ff1adcf-44ad-4d6c-aa60-33f1b89428a6"
+        ],
+        "store": [
+            "04763ab5-7459-4214-93b8-512fff47fd8b"
+        ],
+        "controller": [
+            "b13fe694-d14c-407e-abf6-4d64d2a11db9"
+        ],
+        "model": [
+            "8335a6a3-aa3c-4efd-bfcf-02ba91256c57"
+        ],
+        "resource": [
+            "84248350-831b-4053-9578-eade844da02e",
+            "b6348b0c-eb51-4a72-9fb8-b5a592d7f0c6"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

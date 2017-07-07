@@ -1,0 +1,166 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userAlias": "ticketPanel",
+        "designer|userClassName": "TicketPanel",
+        "height": 500,
+        "title": "Ticket Tracker",
+        "width": 700
+    },
+    "configAlternates": {
+        "designer|initialView": "boolean",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "title": "string",
+        "width": "auto"
+    },
+    "name": "MyPanel",
+    "designerId": "6c475517-6e4b-4363-8a7a-e5c26f5e0a41",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "name": "ticketdataview",
+            "designerId": "8e2b9300-81fd-4708-b2ad-c7b5705dfb42",
+            "masterInstanceId": "8e9d5f47-f138-4436-aba8-e555528427f4"
+        },
+        {
+            "type": "Ext.toolbar.Toolbar",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dock": "top"
+            },
+            "configAlternates": {
+                "dock": "string"
+            },
+            "name": "MyToolbar",
+            "designerId": "f3d5fdc7-8c54-4ae1-89fd-4ce661240895",
+            "cn": [
+                {
+                    "type": "Ext.form.field.ComboBox",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fieldLabel": "Importance",
+                        "layout|flex": null,
+                        "name": "status",
+                        "queryMode": "local",
+                        "store": [
+                            "['1', '2', '3', '4', '5']"
+                        ],
+                        "width": 200
+                    },
+                    "configAlternates": {
+                        "store": "array",
+                        "fieldLabel": "string",
+                        "layout|flex": "number",
+                        "name": "string",
+                        "queryMode": "string",
+                        "width": "auto"
+                    },
+                    "name": "MyComboBox",
+                    "designerId": "b8c9aa1d-12be-45cf-894e-757d31a90a7d"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "action": "sortByImportance",
+                        "layout|flex": null,
+                        "text": "Sort By Importance"
+                    },
+                    "configAlternates": {
+                        "action": "string",
+                        "layout|flex": "number",
+                        "text": "string"
+                    },
+                    "name": "MyButton",
+                    "designerId": "b742d957-4dfd-41ce-bc60-90a48ffda6e2",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "action": "clearFilter",
+                        "layout|flex": null,
+                        "text": "Clear Filter"
+                    },
+                    "configAlternates": {
+                        "action": "string",
+                        "layout|flex": "number",
+                        "text": "string"
+                    },
+                    "name": "MyButton1",
+                    "designerId": "65f001e9-246e-4367-a3c7-2309541f086e",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "action": "addTicket",
+                        "layout|flex": null,
+                        "text": "Add Ticket"
+                    },
+                    "configAlternates": {
+                        "action": "string",
+                        "layout|flex": "number",
+                        "text": "string"
+                    },
+                    "name": "MyButton2",
+                    "designerId": "152d7867-103a-49f6-9680-a541145b1e0c",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
